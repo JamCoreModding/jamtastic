@@ -1,27 +1,27 @@
 {
     "schemaVersion": 1,
-    "id": "{{ mod_id }}",
+    "id": "jamtastic",
     "version": "${version}",
-    "name": "{{ name }}",
-    "description": "{{ description }}",
+    "name": "Jamtastic",
+    "description": "Make any kind of jam you can think of!",
     "authors": [
-        "{{ author }}"
+        "Jamalam"
     ],
     "contact": {
-        "homepage": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "sources": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "issues": "https://github.com/{{github_owner}}/{{github_repo}}/issues"
+        "homepage": "https://github.com/JamCoreModding/jamtastic",
+        "sources": "https://github.com/JamCoreModding/jamtastic",
+        "issues": "https://github.com/JamCoreModding/jamtastic/issues"
     },
     "license": "MIT",
-    "icon": "assets/{{mod_id}}/icon.png",
+    "icon": "assets/jamtastic/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "{{group}}.{{mod_id}}.fabric.{{main_class}}Fabric"
+            "io.github.jamalam360.jamtastic.fabric.JamtasticFabric"
         ]
     },
     "mixins": [
-        "{{mod_id}}.mixins.json"
+        "jamtastic.mixins.json"
     ],
     "depends": {
         "fabric": ">=${fabric_api_version}",

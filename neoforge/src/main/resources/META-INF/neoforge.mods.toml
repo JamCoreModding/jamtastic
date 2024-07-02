@@ -1,41 +1,41 @@
 modLoader = "javafml"
 loaderVersion = "[1,)"
 license = "MIT"
-issueTrackerURL="https://github.com/{{github_owner}}/{{github_repo}}/issues"
+issueTrackerURL="https://github.com/JamCoreModding/jamtastic/issues"
 
 [[mods]]
-modId = "{{mod_id}}"
+modId = "jamtastic"
 version = "${file.jarVersion}"
-displayName = "{{name}}"
-displayURL="https://github.com/{{github_owner}}/{{github_repo}}"
+displayName = "Jamtastic"
+displayURL="https://github.com/JamCoreModding/jamtastic"
 logoFile = "icon.png"
-authors = "{{author}}"
+authors = "Jamalam"
 description = '''
-{{description}}
+Make any kind of jam you can think of!
 '''
 
-[[dependencies.{{mod_id}}]]
+[[dependencies.jamtastic]]
 modId = "neoforge"
 type = "required"
 versionRange = "[20.4,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.{{mod_id}}]]
+[[dependencies.jamtastic]]
 modId = "minecraft"
 type = "required"
 versionRange = "[${minecraft_version},)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.{{mod_id}}]]
+[[dependencies.jamtastic]]
 modId = "architectury"
 type = "required"
 versionRange = "[${architectury_version},)"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.{{mod_id}}]]
+[[dependencies.jamtastic]]
 modId = "jamlib"
 type = "required"
 versionRange = "[${jamlib_version},)"
@@ -43,4 +43,4 @@ ordering = "AFTER"
 side = "BOTH"
 
 [[mixins]]
-config = "{{mod_id}}.mixins.json"
+config = "jamtastic.mixins.json"

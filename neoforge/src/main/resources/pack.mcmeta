@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "{{ name }}",
+        "description": "Jamtastic",
         "pack_format": 15
     }
 }

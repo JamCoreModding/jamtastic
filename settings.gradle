@@ -27,7 +27,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "{{ mod_id }}"
+rootProject.name = "jamtastic"
 include("common")
 include("fabric")
 include("neoforge")
